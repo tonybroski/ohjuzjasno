@@ -1,0 +1,33 @@
+.footer-all {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+  height: 60px;
+  margin-top: auto;
+
+  background-color: rgb(14, 14, 13);
+
+  align-items: center;
+  justify-content: flex-end;
+  text-decoration: none;
+}
+.about-us-button {
+  padding-right: 50px;
+  text-decoration: none;
+  color: white;
+  font-family: Helvetica, sans-serif;
+  font-size: 20px;
+}
+.contact-button {
+  text-decoration: none;
+  color: white;
+  font-family: Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+.about-us-button:hover {
+  color: rgb(68, 255, 0);
+}
+.contact-button:hover {
+  color: rgb(68, 255, 0);
+}
