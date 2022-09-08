@@ -33,7 +33,6 @@ const Navbar = () => {
           placeholder="Szukaj..."
         ></input>
       </div>
-      <Outlet />
     </div>
   );
 };

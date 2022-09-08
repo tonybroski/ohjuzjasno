@@ -1,0 +1,78 @@
+.kontakt-style {
+  display: flex;
+  background-image: url(alexander-popov-FhzihVX0hr4-unsplash.jpg);
+  min-height: 84vh;
+  background-size: cover;
+  background-position: center;
+  margin-top: 0px;
+  justify-content: center;
+}
+
+.text-style-kontakt {
+  font-size: 17px;
+  font-family: Helvetica, sans-serif;
+  font-weight: 500;
+  color: white;
+}
+/* .kontakt-style-h1 {
+  margin: 0;
+} */
+/* .div-main {
+  position: relative;
+} */
+
+.form-kontakt {
+  display: flex;
+  flex-direction: column;
+  /* margin: auto; */
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+
+  padding: 3rem;
+  max-width: 600px;
+  min-width: 500px;
+  border-radius: 5px;
+  box-shadow: 0 0 30px #333;
+  background: rgba(61, 60, 60, 0.2);
+  background-clip: padding-box;
+  backdrop-filter: blur(15px);
+  z-index: 2;
+}
+
+.input-styles {
+  /* padding: 8px; */
+  padding: 5px;
+  border: 2px solid #ccc;
+
+  border-radius: 5px;
+  margin: 10px;
+}
+.input-styles-text {
+  border-radius: 5px;
+  padding: 5px;
+  margin: 10px;
+}
+
+.kontakt-submit-button {
+  padding: 5px;
+  border: 2px solid #ccc;
+
+  border-radius: 5px;
+  margin: 10px;
+  cursor: pointer;
+}
+/* .input-styles-text {
+  padding: 20px;
+} */
+.kontakt-title {
+  font-size: 35px;
+}
+
+.kontakt-label {
+  color: white;
+}
+
+.kontakt-paragraf {
+  font-size: 17px;
+}

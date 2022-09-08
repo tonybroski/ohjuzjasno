@@ -1,0 +1,60 @@
+.miasto-style {
+  height: 84vh;
+
+  background-image: url(alexander-popov-FhzihVX0hr4-unsplash.jpg);
+
+  background-size: cover;
+  background-position: center;
+}
+
+.miasto-style {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.miasto-button-1 {
+  width: 150px;
+  height: 40px;
+  margin: 20px;
+  background-color: black;
+  color: white;
+  border-radius: 30px;
+  font-size: 15px;
+}
+.miasto-button-2 {
+  width: 150px;
+  margin: 20px;
+  background-color: black;
+  color: white;
+  border-radius: 30px;
+  height: 40px;
+  font-size: 15px;
+}
+.miasto-button-3 {
+  width: 150px;
+  height: 40px;
+  margin: 20px;
+  background-color: black;
+  color: white;
+  border-radius: 30px;
+  font-size: 15px;
+}
+
+.miasto-button-1:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
+}
+
+.miasto-button-2:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
+}
+
+.miasto-button-3:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
+}

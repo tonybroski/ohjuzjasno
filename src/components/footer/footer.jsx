@@ -12,7 +12,6 @@ const Footer = () => {
           O nas
         </Link>
       </div>
-      <Outlet />
     </footer>
   );
 };
