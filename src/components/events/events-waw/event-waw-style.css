@@ -1,0 +1,9 @@
+.eventWaw-main-container {
+  min-height: 84vh;
+
+  background-image: url(alexander-popov-FhzihVX0hr4-unsplash.jpg);
+
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}

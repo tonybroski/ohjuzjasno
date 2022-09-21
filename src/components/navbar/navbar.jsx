@@ -18,7 +18,7 @@ const Navbar = () => {
 
       <div className="buttons-all-nav-2">
         <div className="buttons-all-nav-1">
-          <Link className="city-button" to="/miasto">
+          <Link className="city-button" to="">
             Miasto
           </Link>
           <Link className="newsletter-button" to="/newsletter">

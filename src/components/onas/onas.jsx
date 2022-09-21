@@ -1,9 +1,8 @@
 import React from "react";
 import "./onas.css";
-const Onas = function() {
+const Onas = function () {
   return (
     <div className="onas-style">
-      {/* <h1 className="onas-style-h1">O nasssss</h1>; */}
       <text className="onas-text">
         <p className="onas-title">O nas</p>
         <p className="onas-onas-text">

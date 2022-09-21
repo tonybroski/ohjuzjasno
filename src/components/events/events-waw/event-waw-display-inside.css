@@ -1,0 +1,43 @@
+.event-waw-dis-ins {
+  /* min-width: 30%; */
+  width: 30px;
+  height: 240px;
+  flex: 1 1 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid black; */
+  /* margin: 0 7.5px 15px; */
+  /* overflow: hidden; */
+}
+
+.event-waw-dis-ins :hover {
+  cursor: pointer;
+
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.event-waw-dis-body {
+  height: 120px;
+
+  padding: 0 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid white;
+  background-color: rgb(0, 0, 0);
+  opacity: 0.9;
+  position: absolute;
+  color: white;
+}
+
+.link-waw-event {
+  display: flex;
+  text-decoration: none;
+  border-style: solid;
+
+  border-color: azure;
+  color: white;
+}

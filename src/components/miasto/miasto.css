@@ -5,55 +5,29 @@
 
   background-size: cover;
   background-position: center;
-}
-
-.miasto-style {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: row;
 }
 
-.miasto-button-1 {
+.miasto-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   width: 150px;
   height: 40px;
   margin: 20px;
   background-color: black;
+  /* background-size: px; */
   color: white;
-  border-radius: 30px;
-  font-size: 15px;
-}
-.miasto-button-2 {
-  width: 150px;
-  margin: 20px;
-  background-color: black;
-  color: white;
-  border-radius: 30px;
-  height: 40px;
-  font-size: 15px;
-}
-.miasto-button-3 {
-  width: 150px;
-  height: 40px;
-  margin: 20px;
-  background-color: black;
-  color: white;
-  border-radius: 30px;
-  font-size: 15px;
+  border-radius: 50px;
+  font-size: 20px;
+  text-decoration: none;
 }
 
-.miasto-button-1:hover {
-  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
-    0 17px 50px 0 rgba(0, 0, 0, 0.19);
-  cursor: pointer;
-}
-
-.miasto-button-2:hover {
-  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
-    0 17px 50px 0 rgba(0, 0, 0, 0.19);
-  cursor: pointer;
-}
-
-.miasto-button-3:hover {
+.miasto-button:hover {
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
     0 17px 50px 0 rgba(0, 0, 0, 0.19);
   cursor: pointer;

@@ -1,13 +1,21 @@
 import React from "react";
+
+import { Link } from "react-router-dom";
 import "./miasto.css";
-const Miasto = function() {
+const Miasto = function () {
   return (
     <div className="miasto-style">
-      <div>
-        <button className="miasto-button-1">Warszawa</button>
-        <button className="miasto-button-2">Kraków </button>
-        <button className="miasto-button-3">Gdańsk</button>
-      </div>
+      <Link className="miasto-button" to="/warszawa">
+        Warszawa
+      </Link>
+
+      <Link className="miasto-button" to="/krakow">
+        Kraków{" "}
+      </Link>
+
+      <Link className="miasto-button" to="/gdansk">
+        Gdańsk
+      </Link>
     </div>
   );
 };
