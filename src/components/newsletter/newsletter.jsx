@@ -32,7 +32,7 @@ function Newsletter() {
   return (
     <div className="newsletter-style">
       <div className="newsletter-container">
-        <UiComponents />
+        {/* <UiComponents /> */}
         <form className="newsletter-form-style" onSubmit={submitHandler}>
           <h2 className="newsletter-h2-style">Zapisz się do Newslettera</h2>
           <div className="same-height">

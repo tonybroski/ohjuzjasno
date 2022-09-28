@@ -1,3 +1,15 @@
+.eventWaw-main-container {
+  height: 84vh;
+
+  background-image: url(alexander-popov-FhzihVX0hr4-unsplash.jpg);
+
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
 .city-title {
   margin: 0px;
 }

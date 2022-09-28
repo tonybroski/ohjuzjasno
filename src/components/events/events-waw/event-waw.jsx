@@ -34,13 +34,7 @@ function EventWaw() {
     },
   ];
 
-  return (
-    <WawDisplayer events={events} />
-    // <div className="eventWaw-main-container">
-    //   {/* <h2 className="city-title">Warszawa</h2> */}
-    //   <div className="container-for-events"></div>
-    // </div>
-  );
+  return <WawDisplayer events={events} />;
 }
 
 export default EventWaw;
