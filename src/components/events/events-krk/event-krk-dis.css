@@ -1,0 +1,46 @@
+/* .event-waw-dis-ins {
+  display: grid;
+}
+.event-waw-dis-ins :hover {
+  cursor: pointer;
+
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.event-waw-dis-body {
+  padding: 0 2.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid white;
+  background-color: rgb(0, 0, 0);
+  opacity: 0.9;
+  position: absolute;
+  color: white;
+
+  flex-wrap: wrap;
+}
+
+.link-waw-event {
+  display: flex;
+  text-decoration: none;
+  border-style: solid;
+
+  border-color: azure;
+  color: white;
+}
+
+.event-waw-place {
+  font-size: 2rem;
+}
+
+.event-waw-title {
+  font-size: 1.6rem;
+}
+
+.link-waw-event {
+  margin-bottom: 1.6rem;
+  margin-top: 1.6rem;
+} */

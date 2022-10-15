@@ -1,0 +1,182 @@
+.miasto-style-event {
+}
+
+.miasto-container-all-waw {
+  display: grid;
+  /* padding: 50px 50px 50px 50px; */
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  color: white;
+}
+
+.box-container-main {
+  display: grid;
+  grid-column: 1/3;
+  grid-row: 1/3;
+  margin-top: 6rem;
+  margin-left: auto;
+  margin-right: auto;
+
+  padding: 3rem;
+  max-width: 60rem;
+  min-width: 50rem;
+  border-radius: 5px;
+  box-shadow: 0 0 30px #333;
+  background: rgba(61, 60, 60, 0.2);
+  background-clip: padding-box;
+  backdrop-filter: blur(15px);
+  /* z-index: 2; */
+}
+.box-container-name {
+  display: grid;
+  grid-column: 3/4;
+  grid-row: 1/2;
+
+  margin-top: 6rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 3rem;
+  max-width: 30rem;
+  min-width: 20rem;
+  border-radius: 5px;
+  box-shadow: 0 0 30px #333;
+  background: rgba(61, 60, 60, 0.2);
+  background-clip: padding-box;
+  backdrop-filter: blur(15px);
+
+  /* z-index: 2; */
+}
+.box-container-map {
+  display: grid;
+  grid-column: 3/4;
+  grid-row: 2/3;
+  /* margin: auto; */
+  margin-top: 6rem;
+  margin-left: auto;
+  margin-right: auto;
+
+  padding: 3rem;
+  max-width: 30rem;
+  min-width: 20rem;
+  border-radius: 5px;
+  box-shadow: 0 0 30px #333;
+  background: rgba(61, 60, 60, 0.2);
+  background-clip: padding-box;
+  backdrop-filter: blur(15px);
+  /* z-index: 2; */
+}
+
+.box-container-share {
+  display: grid;
+  grid-column: 3/4;
+  grid-row: 3/4;
+  /* margin: auto; */
+  margin-top: 6rem;
+  margin-left: auto;
+  margin-right: auto;
+
+  padding: 3rem;
+  max-width: 30rem;
+  min-width: 20rem;
+  border-radius: 5px;
+  box-shadow: 0 0 30px #333;
+  background: rgba(61, 60, 60, 0.2);
+  background-clip: padding-box;
+  backdrop-filter: blur(15px);
+  /* z-index: 2; */
+}
+
+.date-day {
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+.event-name {
+  font-size: 1.6rem;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  height: 5rem;
+}
+.plakat {
+}
+.about-event {
+  font-size: 2rem;
+  margin: 0;
+}
+.hour {
+  display: flex;
+  align-items: center;
+  font-size: 1.6rem;
+  margin: 0;
+}
+.price {
+  display: flex;
+  align-items: center;
+  font-size: 1.6rem;
+  margin: 0;
+}
+.soundclound {
+  display: flex;
+  align-items: center;
+  font-size: 1.6rem;
+  margin: 0;
+}
+
+.box-container-name {
+  margin-bottom: 2rem;
+  width: 25rem;
+  height: 20rem;
+}
+
+.club-name {
+  font-size: 1.6rem;
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+.adres {
+  font-size: 1.6rem;
+  margin: 0;
+  margin-bottom: 1rem;
+}
+.club-website {
+  font-size: 1.6rem;
+  margin: 0;
+}
+.box-container-map {
+  justify-self: center;
+  align-self: center;
+  font-size: 1.6rem;
+  /* margin-bottom: 2rem;
+  margin-top: 0; */
+  width: 25rem;
+  height: 20rem;
+}
+.map-api {
+  font-size: 1.6rem;
+  margin: 0;
+}
+.map-api-2 {
+  font-size: 1.6rem;
+  margin: 0;
+}
+.google-show-way {
+  font-size: 1.6rem;
+  margin: 0;
+}
+.box-container-share {
+  width: 25rem;
+  height: 20rem;
+  font-size: 1.6rem;
+  margin: 0;
+  align-items: center;
+  align-self: center;
+  justify-self: center;
+}
+
+.share {
+  font-size: 1.6rem;
+  margin: 0;
+}

@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from "react";
 import "./newsletter.css";
 import "firebase/compat/firestore";
-import UiComponents from "./uiComponents";
+// import UiComponents from "./uiComponents";
 
 import db from "../../firebase";
 

@@ -5,13 +5,13 @@ const Onas = function () {
     <div className="onas-style">
       <text className="onas-text">
         <p className="onas-title">O nas</p>
-        <p className="onas-onas-text">
+        <p className="onas-onas-text onas-tekst">
           Kim jesteśmy? Jesteśmy miłośnikami elektronicznej muzyki tanecznej i
           kultywowanych uroczystości. Oh Już Jasno to przede wszystkim projekt
           rekreacyjny i powinien być zabawą.
         </p>
-        <p className="onas-pomysl-title">Pomysł</p>
-        <p className="onas-pomysl-text">
+        <p className="onas-pomysl-title onas-title">Pomysł</p>
+        <p className="onas-pomysl-text onas-tekst">
           Chcielibyśmy przedstawić zbiorczy i zwięzły przegląd elektronicznych
           imprez tanecznych w nocnej Polsce - czy to techno, house, trance, DnB,
           dubstep, czysto syntetyczne, czy elektronicznie wzbogacone -
@@ -26,8 +26,10 @@ const Onas = function () {
           Staramy się wymienić jak najwięcej wydarzeń elektronicznych. Wielkie
           cele, może nie idealne, ale staramy się.
         </p>
-        <p className="onas-opinia-title">Twoja opinia / Twój wkład</p>
-        <p className="onas-opinia-text">
+        <p className="onas-opinia-title onas-title">
+          Twoja opinia / Twój wkład
+        </p>
+        <p className="onas-opinia-text onas-tekst">
           Możesz poinformować nas o swojej imprezie - lub innej, którą
           przegapiliśmy - za pomocą pozycji menu "Enter". Im bardziej nam
           pomożesz, tym bardziej kompletni się stajemy i tym lepsza usługa dla
@@ -40,8 +42,8 @@ const Onas = function () {
           promować swoją imprezę lub współpracować w inny sposób? Po prostu
           napisz do nas, a zobaczymy, czy coś wyjdzie 😉
         </p>
-        <p className="onas-misja-title">Misja</p>
-        <p className="onas-misja-text">
+        <p className="onas-misja-title onas-title">Misja</p>
+        <p className="onas-misja-text onas-tekst">
           Aby stać się żywą usługą, potrzebujemy Was - użytkowników.
           Rozpowszechniaj i informuj ohjuzjasno.pl! Twój zespół ohjuzjasno.pl
         </p>

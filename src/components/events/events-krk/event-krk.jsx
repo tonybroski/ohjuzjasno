@@ -1,6 +1,22 @@
 import "./event-krk-style.css";
 import React, { useState, useEffect, Fragment } from "react";
-import db, { getCityAndDocuments } from "../../../firebase";
+import { getCityAndDocuments } from "../../../firebase";
+import { Link } from "react-router-dom";
+import { ProductsProv } from "../../../odpalacz";
+import "./event-krk-dis.css";
+
+// import { addCollectionAndDocuments1 } from "../../../firebase";
+
+// import SHOW_DATA_2 from "../../../event-data-2";
+
+// export const ProductsProv = () => {
+//   // const [products, setProducts] = useState([]);
+//   useEffect(() => {
+//     addCollectionAndDocuments1("city2", SHOW_DATA_2);
+//   }, []);
+
+//   return <h1>Siema</h1>;
+// };
 
 const EventKrk = () => {
   const [citiesMap, setCitiesMap] = useState([]);
@@ -17,17 +33,27 @@ const EventKrk = () => {
   // const value = citiesMap;
 
   return (
-    <div>
+    <div className="container grid  event-krk-main-container">
       {citiesMap.map((cmap) => (
         <Fragment>
-          <p>{cmap.cena}</p>
+          <ProductsProv />
+          {/* <p>{cmap.cena}</p>
           <p>{cmap.club}</p>
           <p>{cmap.data}</p>
           <p>{cmap.day}</p>
           <p>{cmap.event}</p>
           <p>{cmap.opis}</p>
           <p>{cmap.strona}</p>
-          <p>{cmap.hour}</p>
+          <p>{cmap.hour}</p> */}
+          <div className="event-krk-dis-ins">
+            <div className="event-krk-dis-body">
+              <div className="event-krk-place">{cmap.club}</div>
+              <div className="event-krk-title">{cmap.event}</div>
+              <Link className="link-krk-event" to="/krakow-event">
+                Show more
+              </Link>
+            </div>
+          </div>
         </Fragment>
       ))}
     </div>

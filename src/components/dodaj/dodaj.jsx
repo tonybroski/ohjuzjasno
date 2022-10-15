@@ -2,7 +2,7 @@ import React from "react";
 import DatePick from "./datepickler";
 import "./dodaj.css";
 
-const Dodaj = function() {
+const Dodaj = function () {
   return (
     <div className="dodaj-style">
       <div className="dodaj-container">
@@ -14,32 +14,38 @@ const Dodaj = function() {
             formularza i wyślij nam kolejną imprezę. Zanim Twój wpis pojawi się
             na naszej stronie, sprawdzimy go ponownie, a następnie zatwierdzimy.
           </p>
-          <h2>Dodaj używając Facebook-ID</h2>
+          <h2 className="dodaj-h2">Dodaj używając Facebook-ID</h2>
           <p className="dodaj-p2">
             Proszę używać linków z bezpośrednim identyfikatorem Facebooka (np.:
             https://www.facebook.com/events/7885865858) zamiast krótkich linków
             (https://fb.me/e/2hjuu6).
           </p>
           <div className="dodaj-input-fb-container">
-            <input placeholder="Facebook ID" />
-            <input placeholder="Twój adres e-mail" />
+            <input className="facebook-id" placeholder="Facebook ID" />
+            <input className="adres-email" placeholder="Twój adres e-mail" />
+            <button className="dodaj-buton-wyslij-1">Wyślij</button>
           </div>
-          <button className="dodaj-buton-wyslij-1">Wyślij</button>
         </div>
         <div>
-          <h2>Dodaj poza Facebook</h2>
+          <h2 className="poza-fb">Dodaj poza Facebook</h2>
           <div className="dodaj-input-nofb-container">
-            <input placeholder="Nazwa wydarzenia" />
+            <input
+              className="nazwa-wydarzenia"
+              placeholder="Nazwa wydarzenia"
+            />
 
-            <select>
+            <select
+              className="
+              lokalizacja"
+            >
               <option value="Wybierz lokalizację">Wybierz lokalizację</option>
               <option value="Smolna">Smolna</option>
               <option value="Luzztro">Luzztro</option>
               <option value="Święta krowa">Święta krowa</option>
             </select>
-            <DatePick />
-            <input type="time" />
-            <input placeholder="Line Up/Opis" />
+            <DatePick className="datepick" />
+            <input className="time-put" type="time" />
+            <input className="line-up" placeholder="Line Up/Opis" />
 
             <button className="dodaj-buton-wyslij-1">Wyślij</button>
           </div>

@@ -2,7 +2,8 @@
 
 import "./navbar.css";
 import React from "react";
-import { Outlet, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
+import "../../queries-mobile/queries-mobile.css";
 
 const Navbar = () => {
   return (
@@ -28,11 +29,11 @@ const Navbar = () => {
             Dodaj
           </Link>
         </div>
-        <input
+        {/* <input
           className="szukaj-input"
           type="search"
           placeholder="Szukaj..."
-        ></input>
+        ></input> */}
       </div>
     </div>
   );

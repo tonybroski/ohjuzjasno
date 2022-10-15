@@ -1,4 +1,4 @@
-const SHOW_DATA = [
+const SHOW_DATA_2 = [
   {
     city: "Warszawa",
     properties: [
@@ -12,9 +12,36 @@ const SHOW_DATA = [
         opis: "",
         cena: "200",
         strona: " https://undercity.pl/",
+        adres: "doyopa 3/14",
+      },
+      {
+        id: 121,
+
+        data: "06.11.2022",
+        day: "Sobota",
+        hour: "21:00",
+        club: "Torwar",
+        event: " UnderAfter",
+        opis: "",
+        cena: "0",
+        strona: " https://undercity.pl/",
+        adres: "dootpa 3/14",
+      },
+      {
+        id: 112,
+        data: "07.11.2022",
+        day: "Niedziela",
+        hour: "21:00",
+        club: "Torwar",
+        event: " UnderAfterPoAfter",
+        opis: "",
+        cena: "0",
+        strona: " https://undercity.pl/",
+        adres: "doopra 3/14",
       },
     ],
   },
+
   {
     city: "Krakow",
     properties: [
@@ -29,6 +56,7 @@ const SHOW_DATA = [
         cena: "20/30/40",
         strona:
           " https://www.facebook.com/events/1064889820887091/?acontext=%7B%22event_action_history%22%3A[%7B%22surface%22%3A%22page%22%7D]%7D",
+        adres: "dowopa 3/14",
       },
       {
         id: 3,
@@ -41,6 +69,33 @@ const SHOW_DATA = [
         cena: "22:30 - 23:00 FREE | 23:00 - 07:00 | 10 PLN (przed północą) / 20 PLN (po północy) | Karty klubowe 10 PLN | Selekcja | PLUR | Ilość miejsc w klubie ograniczona.",
         strona:
           " https://www.facebook.com/events/881630496147671/?acontext=%7B%22event_action_history%22%3A[%7B%22surface%22%3A%22page%22%7D]%7D",
+        adres: "doeopa 3/14",
+      },
+      {
+        id: 3,
+        data: "08.10.2022",
+        day: "Sobota",
+        hour: "22:00",
+        club: "Czudner SPOT",
+        event: " SUBATOMIC: Concept of Thrill | DYGA | Jan Mohr | Maikel.",
+        opis: "SUBATOMIC: Concept Of Thrill | DYGA | Jan Mohr | Maikel.",
+        cena: "20/30",
+        strona:
+          "https://allevents.in/gdansk/subatomic-concept-of-thrill-%7C-dyga-%7C-jan-mohr-%7C-maikel/200023341328043 ",
+        adres: "doopea 3/14",
+      },
+      {
+        id: 3,
+        data: "08.10.2022",
+        day: "Sobota",
+        hour: "22:00",
+        club: "Czudner SPOT",
+        event: " SUBATOMIC: Concept of Thrill | DYGA | Jan Mohr | Maikel.",
+        opis: "SUBATOMIC: Concept Of Thrill | DYGA | Jan Mohr | Maikel.",
+        cena: "20/30",
+        strona:
+          "https://allevents.in/gdansk/subatomic-concept-of-thrill-%7C-dyga-%7C-jan-mohr-%7C-maikel/200023341328043 ",
+        adres: "doopaje 3/14",
       },
     ],
   },
@@ -58,9 +113,35 @@ const SHOW_DATA = [
         cena: "20/30",
         strona:
           "https://allevents.in/gdansk/subatomic-concept-of-thrill-%7C-dyga-%7C-jan-mohr-%7C-maikel/200023341328043 ",
+        adres: "doopaje 3/14",
+      },
+      {
+        id: 32,
+        data: "08.10.2022",
+        day: "Sobota",
+        hour: "22:00",
+        club: "Czudner SPOT",
+        event: " Fajno tech",
+        cena: "20/30",
+        strona:
+          "https://allevents.in/gdansk/subatomic-concept-of-thrill-%7C-dyga-%7C-jan-mohr-%7C-maikel/200023341328043 ",
+        adres: "doopay 3/14",
+      },
+      {
+        id: 31,
+        data: "08.10.2022",
+        day: "Sobota",
+        hour: "22:00",
+        club: "Czudner SPOT",
+        event: " UmcyUmcy",
+        opis: "SUBATOMIC: Concept Of Thrill | DYGA | Jan Mohr | Maikel.",
+        cena: "20/30",
+        strona:
+          "https://allevents.in/gdansk/subatomic-concept-of-thrill-%7C-dyga-%7C-jan-mohr-%7C-maikel/200023341328043 ",
+        adres: "doopak 3/14",
       },
     ],
   },
 ];
 
-export default SHOW_DATA;
+export default SHOW_DATA_2;

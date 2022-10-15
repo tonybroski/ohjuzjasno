@@ -6,15 +6,16 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter as Router } from "react-router-dom";
 import ScrollToTop from "./scrollToTop/scrollToTop";
+import { EventProvider } from "./context/eventUpdateGet";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <Router>
-      {/* <CityProvider> */}
-      <ScrollToTop />
-      <App />
-      {/* </CityProvider> */}
+      <EventProvider>
+        <ScrollToTop />
+        <App />
+      </EventProvider>
     </Router>
   </React.StrictMode>
 );

@@ -1,8 +1,10 @@
 .footer-all {
-  display: flex;
+  position: fixed;
+  bottom: 0;
   width: 100%;
-  gap: 20px;
-  height: 8vh;
+
+  display: flex;
+  height: 5.2rem;
   margin-top: auto;
 
   background-color: rgb(14, 14, 13);
@@ -12,23 +14,27 @@
   text-decoration: none;
 }
 .about-us-button {
-  padding-right: 50px;
+  padding-right: 3.2rem;
   text-decoration: none;
   color: white;
   font-family: Helvetica, sans-serif;
-  font-size: 20px;
+  font-size: 2rem;
+  transition: 0.5s;
 }
 .contact-button {
   text-decoration: none;
   color: white;
   font-family: Helvetica, sans-serif;
-  font-size: 20px;
-  padding-right: 20px;
+  font-size: 2rem;
+  padding-right: 2.4rem;
+  transition: 0.5s;
 }
 
-.about-us-button:hover {
+.about-us-button:hover,
+.about-us-button:active {
   color: rgb(68, 255, 0);
 }
-.contact-button:hover {
+.contact-button:hover,
+.contact-button:active {
   color: rgb(68, 255, 0);
 }

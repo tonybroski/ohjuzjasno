@@ -1,6 +1,6 @@
 import "./footer.css";
 import React from "react";
-import { Outlet, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <footer className="footer-all">

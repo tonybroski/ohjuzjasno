@@ -1,6 +1,6 @@
 import React from "react";
 import "./kontakt.css";
-const Kontakt = function() {
+const Kontakt = function () {
   return (
     <div className="kontakt-style">
       <div className="div-main">
@@ -30,7 +30,7 @@ const Kontakt = function() {
           <label className="kontakt-label">
             Twoja wiadomość (obowiązkowe):
           </label>
-          <input type="textarea" className="input-styles-text" />
+          <input type="textarea" className="input-styles" />
 
           <input
             className="kontakt-submit-button"

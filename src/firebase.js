@@ -26,7 +26,22 @@ const db = firebaseApp.firestore();
 export default db;
 
 //import danch do firestore, plik jest później przekazynawny w metodzie addCollectionAnd Documents
-export const addCollectionAndDocuments = async (
+// export const addCollectionAndDocuments = async (
+//   collectionKey,
+//   objectsToAdd
+// ) => {
+//   const collectionRef = collection(db, collectionKey);
+//   const batch = writeBatch(db);
+
+//   objectsToAdd.forEach((object) => {
+//     const docRef = doc(collectionRef, object.city.toLowerCase());
+//     batch.set(docRef, object);
+//   });
+//   await batch.commit();
+//   console.log("done");
+// };
+
+export const addCollectionAndDocuments1 = async (
   collectionKey,
   objectsToAdd
 ) => {
@@ -42,8 +57,9 @@ export const addCollectionAndDocuments = async (
 };
 
 //get data from firebase
+//change collection from line 62 to city to get other data from Firestore
 export const getCityAndDocuments = async () => {
-  const collectionRef = collection(db, "city");
+  const collectionRef = collection(db, "collection");
   const q = query(collectionRef);
   const querySnapshot = await getDocs(q);
   const cityMap = querySnapshot.docs.reduce((acc, docSnapshot) => {
