@@ -11,4 +11,4 @@ Used technologies:
 -React
 -Firebase/Firestore
 
-Website is still in development process.
+Website is still in development process...
